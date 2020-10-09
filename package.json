@@ -1,0 +1,29 @@
+{
+  "name": "php-react-skeleton",
+  "version": "1.0.0",
+  "description": "this is a blank template that can be used as a starting point for complex php & react web apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set \"INLINE_RUNTIME_CHUNK=false\" && webpack-dev-server --mode development --open",
+    "build": "set \"INLINE_RUNTIME_CHUNK=false\" && webpack --mode production"
+  },
+  "keywords": [],
+  "author": "https://github.com/robalb",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-hot-loader": "^4.12.19"
+  },
+  "devDependencies": {
+    "@neutrinojs/react": "^9.1.0",
+    "glob": "^7.1.6",
+    "neutrino": "^9.1.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-stats-plugin": "^0.3.1"
+  }
+}

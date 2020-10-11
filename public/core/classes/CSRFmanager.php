@@ -1,9 +1,9 @@
 <?php
 
 class CSRFmanager{
-  //TODO: study wether this is needed, or i can just generate a
-  //token when it is requested and it doesnt exist without security problems
-  public static function generate(){
+  public static function regenerate(){
+    //TODO: Research: Is this needed? can i generate a
+    //token when it is requested and it doesnt exist without security problems?
     /* if(isset($_SESSION['CSRF'])){ */
     /*   throw new Exception('csrf token already generated'); */
     /*   return 0; */
@@ -13,7 +13,7 @@ class CSRFmanager{
 
   public static function getToken(){
     if(!isset($_SESSION['CSRF'])){
-      $_SESSION['CSRF'] = bin2hex(random_bytes(32));
+      self::generate();
     }
     return $_SESSION['CSRF'];
   }

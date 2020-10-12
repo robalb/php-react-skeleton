@@ -1,4 +1,4 @@
-<img src="v2-compressed.png" width="300px" height="auto" />
+<img src="titled-v2-compressed.png" width="600px" height="auto" />
 
 this is a blank template that can be used as a starting point for complex php & react web apps
 

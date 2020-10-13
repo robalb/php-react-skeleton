@@ -1,6 +1,5 @@
 <img src="v2-compressed.png" width="300px" height="auto" />
-
-this is a blank template that can be used as a starting point for complex php & react web apps
+This is a blank template that can be used as a starting point for complex php & react web apps
 
 basic functionalities:
 - multiple pages (every folder created in `/src/pages/` will be treated as a page entry point for webpack)
